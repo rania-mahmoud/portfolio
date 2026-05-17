@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <!--meta data-->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Rm|software Engineering student</title>
         <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap"rel="stylesheet">
@@ -26,28 +21,28 @@
          </header>
          <!--main content-->
          <main><!--hearo section-->
-            <section id="home">
+            <section id="home"class="hidden">
                 <div>
                 <h2>Hi,Iam Rania Mahmoud</h2>
-                <h3>Software Engineering student</h3>
+                <h3 id="typing"></h3>
                 <p>I build clean and modern web experience.</p>
                 </div>
                 <div>
-                    <img src="profile.jpg.jpeg" alt="Rania profile picture">
+                    <img src="images/profile.jpg.jpeg"alt="Rania profile picture">
                 </div>
                 
             </section>
             <!---About section-->
-            <section id="about">
+            <section id="about"class="hidden">
                 <div id="about-container">
                     <h2>About me</h2>
-                <p>I am a software Engineering student passionate about building modern and clean web applications.</p>
-                <p>I started my journey with C and PYTHON,and now I am learning front-End development to create responsive and user-friendly websites.</p>
+                <p>I am a software Engineering student passionate a bout building modern and clean web applications.</p>
+                <p>I started my journey with C and PYTHON,and now I am learning front-End development to creat responsive and user-friendly websites.</p>
                 <div id="social-icons">
                     <a href="https://www.linkedin.com/in/rania-mahmoud-33aa00369?utm_source=share_via&utm_content=profile&utm_medium=member_android"target="blank">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
-                    <a href="https://www.instagram.com/rnymhmwd29?igsh=OXEwdG9nanYzbG54"target="-blank">
+                    <a href="https://www.instagram.com/rnymhmwd29?igsh=OXEwdG9nanYzbG54"target="blank">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
                     
@@ -64,31 +59,34 @@
                 
             </section>
             <!--Skills section-->
-            <section id="skills">
+            <section id="skills"class="hidden">
                 <h2>my skills</h2>
+                <div class="skills-container">
+
+                
                 <div>
-                    <img src="html.png"alt="HTML logo">
+                    <img src="images/html.png"alt="HTML logo">
                     <h3>HTML</h3>
                     <p>building structured and semantic web pages.</p>
                 </div>
                 <div>
-                    <img src="css.png" alt="CSS logo">
+                    <img src="images/css.png"alt="CSS logo">
                     <h3>CSS</h3>
                     <P>designing responsive and modern layouts.</P>
                 </div>
                 <div>
-                    <img src="c-.png">
+                    <img src="images/c-.png">
                     <h3>C programming</h3>
                     <p>writing clean and simple scripts.</p>
                 </div>
             </section>
             <!--Projects section-->
-            <section id="projects">
+            <section id="projects"class="hidden">
                 <h2>My Projects</h2>
                 <div class="project">
                     <div class="project-image">Ai System</div>
                     <h3>face recognition attendance system</h3>
-                    <p>An Ai-based system thst detects and recognize faces to automatically record attendance.</p>
+                    <p>An Ai-based system thst detects and recognize faces to automatocally record attendance.</p>
                     <p><strong>Technologies</strong>python,openCv</p>
                     <button>View project</button>
 
@@ -109,10 +107,35 @@
                     <p><strong>Technologies:</strong>Arduino,Ultrasonic sensor,lcd,servo motor</p>
                     <button>View project</button>
                 </div>
+                <div class="project">
+
+    <img src="images/icu-dashboard.png.png" alt="ICU Dashboard">
+
+    <h3>ICU Bed Management System</h3>
+
+    <p>
+        A responsive ICU dashboard built using HTML, CSS, and JavaScript.
+        The system allows adding and discharging patients while dynamically tracking ICU bed availability.
+    </p>
+
+    <p>
+        <strong>Technologies:</strong>
+        HTML, CSS, JavaScript
+    </p>
+
+    <a href="https://github.com/rania-mahmoud/icu-bed-management-system.git" target="_blank">
+        <button>GitHub</button>
+
+    </a>
+    <a href="https://rania-mahmoud.github.io/icu-bed-management-system/" target="_blank">
+    <button>Live Demo</button>
+</a>
+
+</div>
 
             </section>
             <!--contact section-->
-            <section id="contact">
+            <section id="contact"class="hidden">
                 <h2>Contact Me</h2>
                 <p>if you would like to work with me or have any questions, Feel free to contact me.</p>
                 <form>
@@ -132,10 +155,8 @@
          <footer>
             <p>&copy;2026 RM.All Rights Reserved.</p>
          </footer>
+         <button id="topBtn">↑</button>
+         <script src="script.js"></script>
     </body>
 
-
 </html>
-
-
-
